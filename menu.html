@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <style>
+        /* Basic body styling */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4; /* Light background */
+            color: #333;
+        }
+.navbar {
+            background-color: #8b0000; /* Dark red background */
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            display: block;
+        }
+
+        .navbar a:hover {
+            background-color: #a52a2a; /* Lighter red on hover */
+            border-radius: 5px;
+        }
+
+        /* Content Styling */
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Header styling */
+        header {
+            background-color: #333; /* Dark background for header */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        /* Menu Section */
+        .menu {
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 columns */
+            gap: 20px;
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+
+        .menu-item {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .menu-item img {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 8px; 
+}
+
+        .menu-item h3 {
+            margin: 10px 0;
+            font-size: 1.5rem;
+        }
+
+        .menu-item p {
+            font-size: 1rem;
+            color: #888;
+        }
+
+        .menu-item .price {
+            font-size: 1.2rem;
+            color: #333;
+            font-weight: bold;
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+ <div class="navbar">
+        <a href="ruhan.html">Home</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="loginpage.html">LOGIN</a>
+
+    </div>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Restaurant's Menu</h1>
+        <p>Savor every bite of our expertly crafted dishes, where fresh ingridient's meet bold flavour's</p>
+    </header>
+
+    <!-- Menu Section -->
+    <div class="menu">
+        <div class="menu-item">
+            <img src="https://media.cnn.com/api/v1/images/stellar/prod/210211141204-05-classic-italian-dishes.jpg?q=w_5313,h_2988,x_0,y_0,c_fill" alt="Dish 1"> <!-- Replace with actual image URL -->
+            <h3>Lasagna</h3>
+            <p>A delicious Lasagna served with sauce</p>
+            <p class="price">PKR: 3200/-</p>
+        </div>
+
+        <div class="menu-item">
+            <img src="alfredo.jpeg" alt="Dish 2"> <!-- Replace with actual image URL -->
+            <h3>Pasta Alfredo</h3>
+            <p>Creamy pasta with alfredo sauce and parmesan cheese</p>
+            <p class="price">PKR: 1599/-</p>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPitk5t8N1e14DeaFGAIfutkbvVmOkWMAH9w&s" alt="Dish 3"> <!-- Replace with actual image URL -->
+            <h3>Italian Pizza</h3>
+            <p>A pizza topped with fresh vegetables and mozzarella cheese</p>
+            <p class="price">PKR: 2999/-</p>
+        </div>
+
+        <div class="menu-item">
+            <img src="steakfries.jpeg" alt="Dish 4"> <!-- Replace with actual image URL -->
+            <h3>Steak & Fries</h3>
+            <p>Juicy steak served with crispy fries</p>
+            <p class="price">PKR: 1370/-</p>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWG7j1z35ZgvN6Jb8iKrP01b5jgovbTgFnwA&s" alt="Dish 5"> <!-- Replace with actual image URL -->
+            <h3>Grilled Salmon</h3>
+            <p>Fresh grilled salmon with lemon and herbs</p>
+            <p class="price">PKR: 2780/-</p>
+        </div>
+
+        <div class="menu-item">
+            <img src="salad.jpeg" alt="Dish 6"> <!-- Replace with actual image URL -->
+            <h3>Caesar Salad</h3>
+            <p>Crispy romaine lettuce with caesar dressing and croutons</p>
+            <p class="price">PKR: 650/-</p>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fknifeandsoul.com%2Fcrunchy-roll-sushi-recipe%2F&psig=AOvVaw3Xyj5Fj3-PyKYE0oMAhLVo&ust=1734794112151000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJjcoIvStooDFQAAAAAdAAAAABAE" alt="Dish 7"> <!-- Replace with actual image URL -->
+            <h3>Sushi</h3>
+            <p>"Fresh, flavorful, and beautifully crafted sushi—highly recommend!"</p>
+            <p class="price">PKR: 1350/-</p>
+        </div>
+
+        <div class="menu-item">
+            <img src="fishchips.jpeg" alt="Dish 8"> <!-- Replace with actual image URL -->
+            <h3>Fish & Chips</h3>
+            <p>Classic fish served with crispy fries</p>
+            <p class="price">PKR: 1999/-</p>
+        </div>
+
+        <div class="menu-item">
+            <img src="chicken.jpeg" alt="Dish 9"> <!-- Replace with actual image URL -->
+            <h3>Chicken Tenders</h3>
+            <p>Crispy fried chicken tenders with dipping sauce</p>
+            <p class="price">PKR: 1100/-</p>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://149370792.v2.pressablecdn.com/wp-content/uploads/2020/08/Chicken-Shawarma-Plate-Recipe-15.jpeg" alt="Dish 10"> <!-- Replace with actual image URL -->
+            <h3>Shawarma Platter</h3>
+            <p>"Delicious shawarma platter with generous portions and amazing flavors!"</p>
+            <p class="price">PKR 2000/-</p>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Our Restaurant | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
